@@ -88,7 +88,7 @@ public class oneTableActivity extends AppCompatActivity implements oneTableDialo
         //noinspection SimplifiableIfStatement
         if (id == R.id.menu_onetable_add) {
             oneTableDialogFragment oneDialog = new oneTableDialogFragment(0, "", "", "", "", 0);
-            oneDialog.show(getFragmentManager(), "添加用户");
+            oneDialog.show(getFragmentManager(), "添加新用户");
             return true;
         }
 
