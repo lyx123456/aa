@@ -33,7 +33,7 @@ public class oneTableActivity extends AppCompatActivity implements oneTableDialo
         setContentView(R.layout.activity_one_table);
 
         toolbar = (Toolbar) this.findViewById(R.id.toolbar);
-        toolbar.setTitle("单表操作");
+        toolbar.setTitle("表格操作");
         setSupportActionBar(toolbar);
 
         db = DbService.getInstance(this);
